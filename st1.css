@@ -1,0 +1,26 @@
+.listi{
+	background-color:black;
+	display:block;
+	width:100%; /*match-parent*/
+	height:100px;
+	overflow-y:auto;
+}
+
+.listi .li_listi{
+	color:red;
+}
+.listi .li_listi:hover{
+	color:yellow;
+	font-size:150%;
+	text-shadow:3px 2px 5px yellow;
+}
+
+
+.li_listi a{
+		color:yellow;
+}
+.li_listi a:hover{
+	color:red;
+	text-shadow:4px 2px 6px yellow;
+	font-size:150%;
+}

@@ -1,0 +1,167 @@
+<!doctype html5>
+<html lang = 'pt-BR'>
+	<head>
+		<meta charset = 'utf-8' />
+		<link rel="shortcut icon" type="imagex/png" href="rc-eng.png" />
+		<!--I Knwon it's not necessary to put close bar on tags witout body but i wanted anyway-->
+		<title>RCB_RC-Engineering-Home</title>
+		<link rel = 'stylesheet' href = 'st1.css' />
+		<style>
+			*{font-family:sans-serif; margin:0px; padding:0px;}
+			.bodi{
+				background-color:#333333;
+			}
+			.sec_main{
+				margin-left:2px;
+				margin-top:20px;
+				display:block;
+				width:99%;
+				heigth:100px;
+				border:5px solid white;
+				background-color:gray;
+			}
+			.tit{text-align:center; font-size:150%; color:yellow;}
+			.tit:hover{
+				color:cyan;
+				text-decoration:underline;
+			}
+			.headi{
+			display:inline;
+			}
+			.cardi{
+				display:block;
+				width:99%;
+				margin-left:2px;
+				height:300px;
+				background-color:gray;
+				color:black;
+				border:5px solid white;
+				overflow-y: auto
+			}
+			p{font-size:150%;}
+			
+			.navbar{
+				display:block;
+				width:100%;/*match-parent*/
+				height:25px;
+				background-color:black;
+				border:2px solid yellow;
+			}
+			
+			.nav_li{
+				display:inline;
+			}
+			.nav_li2{
+				display:inline; 
+				margin-left: 50%;
+			}
+			
+			a{
+				color:red;
+			}
+			a:hover{
+				color:yellow;
+				text-shadow:4px 2px 6px yellow;
+			}
+			
+			.a1{
+				display:block;
+				width:300px;
+				margin-left:2px;
+				heigth:50px;
+				background-color:black;
+			}
+			#a2{color:#00FF00;}
+			
+		</style>
+	</head>
+	<body class = 'bodi'>
+		<section class = 'sec_main'>
+			<header>
+				<h1 class = 'tit'>Welcome to RC - engineering</h1>
+			</header>
+		</section>
+		<section class = 'sec_main'>
+			<header class = 'headi'>
+				<h2 class = 'tit'>About me</h2>
+			</header>
+		</section>
+		<section class = 'cardi'>
+			<p>I'm a Electrical Engineer with experience and professional interest in programming computational systems, digital and analog eletronics for control systems development
+				purposes, I also have great interest in rewenable energy forms and developing new solutions for sustentability issues that can be solved by engineering
+			</p>
+			<p>My personal interests are in programing and multi-purpose designs and to help my clients with their goals.</p>
+			<br>
+			<legend><mark>My Curriculum:</mark></legend>
+			<nav class = 'navbar'>
+				<ul class = 'nav_ul'>
+					
+					<li class = 'nav_li'>
+						<a href = 'pdf1.pdf' target = '_blank'>My CV [en-US]</a>
+					</li>
+					<li class = 'nav_li2'>
+						<a href = 'pdf2.pdf' target = '_blank'>My CV in protuguese [pt-BR]</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+		<section class = 'sec_main'>
+			<header class = 'headi'>
+				<h2 class = 'tit'>My vision:</h2>
+			</header>
+		</section>
+		<section class = 'cardi'>
+			<p>
+				My personal beliefs that made me choose science is that only be the means of reason we can solve real and material problems.
+			</p> 
+			<p>
+				As someone who's engaged in that vision I want to welcome you to RC - Engineering
+			</p>
+		</section>
+		<section class = 'sec_main'>
+			<header>
+				<h2 class = 'tit'>Other works: </h2>
+			</header>
+		</section>
+		<section class = 'cardi'>
+			My main works will be posted on YT, GITHUB, LinkedIn and others
+			<nav class = 'navbar'>
+			<!--file:///C:/Users/rodilgo/Desktop/my_main_page_git_hub/oberdan/index.html-->
+				<li class = 'nav_li'><a href = 'index_2_versao2.html' target = '_blank'>PUCCIAM Visit Card</a></li>
+			</nav>
+		</section>
+		<section class = 'headi'>
+			<h2 class = 'tit'>
+				Contact:
+			</h2>
+		</section>
+		<section class = 'cardi'>
+			<ol class = 'listi' type = 'I'>
+				<li class  = 'li_listi'>Email: [***] (on going) </li>
+				<li class  = 'li_listi'>My YT-CH: <a href = 'https://www.youtube.com/channel/UCV3bVH5yn3Dy-j9jeWRbgIw'>Link RC-Engineering</a></li>
+				<li class  = 'li_listi'>My personal web site: <a class = 'ongoing' href = '#'>Link RC-Engineering Web Site</a></li>
+			</ol>
+		</section>
+		<hr>
+		<section class = 'a1'>
+			<p id = 'a2'></p>
+		<script>
+			
+			const stt = 'The JS scripts are Ok!';
+			window.console.log(stt);
+			const please = 'Please, ';
+			window.alert(please + 'do not deactivate JS');
+			const stuff = 'stuff';
+			let nf = window.confirm('Please, note that This is a beta version of the site and I\'m still Learning a lot of '+ `${stuff}`+'Just wait some more time ok? \n');
+			let a2 = window.document.getElementById('a2');
+			if(nf === true){
+				window.alert('GREAT!');
+				a2.innerHTML = 'Thanks :)';
+			}else{
+				window.alert('-_-\'');
+				a2.innerText = 'That\'s too bad ;(';
+			}
+		</script>
+		<script src = 'scri1.js'></script>
+	</body>
+</html>
